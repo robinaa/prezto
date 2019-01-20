@@ -11,3 +11,11 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
 fi
 
 # Customize to your needs...
+# Virtual Env setup for Python
+export WORKON_HOME=~/Virtualenvs
+source `which virtualenvwrapper.sh`
+
+# Source aliases
+source ~/.aliases
+# Source functions
+source ~/.functions
