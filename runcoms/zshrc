@@ -34,3 +34,4 @@ if [[ -d "$HOME/.okta/bin" && ":$PATH:" != *":$HOME/.okta/bin:"* ]]; then
     PATH="$HOME/.okta/bin:$PATH"
 fi
 export PATH="/usr/local/opt/gettext/bin:$PATH"
+autoload -Uz compinit; compinit
